@@ -44,9 +44,9 @@ Post::Post()
 {
 }
 
-void Post::writeComment(string s)
+void Post::writeComment(string s, int idPost)
 {	
-   // comments comment(s,getLastId());
+   comments comment(s,int idPost);
 }
 
 details Post::Displaypost(string id)
