@@ -39,7 +39,7 @@ public:
 
 	Post(User user,string s);
 	Post();
-	void writeComment(string s);
+	void writeComment(string s,int idPost);
 	details Displaypost(string id);
 	void DisplayComments();
 	bool isliked();
