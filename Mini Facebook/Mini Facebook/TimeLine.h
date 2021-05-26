@@ -7,46 +7,38 @@
 #include "LinkedList.h"
 using namespace std;
 
-class TimeLine
+class TimeLine : public User
 {
 private:
-	/* ::User Atrribute::
-	string Caption;
-	string Name;
-	string BirthDate;
-	string Gender;
-	ArrayList<string> Work;
-	ArrayList<string> Education; // (High school) (University) (Masters) (PhD)
-	ArrayList<User> friends;
-	string Lives_in;
-	*/
 	LinkedList<Post> Posts;
 public:
 	//Setters & Getters
-	string GetCaption() {
+	
+	/*string GetCaption() {
 		return Caption;
-	}
+	}*/
 	string GetName() {
-		return Name;
+		return User::getName();
 	}
 	string GetBirthDate() {
-		return BirthDate;
+		return User::getBirhtdate();
 	}
 	string Gender() {
-		return Gender;
+		return User::getGender();
 	}
-	void GetWork() {
-		Work.Display();
+	ArrayList<string> GetWork() {
+		return User::getWork();
 	}
-	void GetEducation() {
-		Education.Display();
+	ArrayList<string> GetEducation() {
+		return User::getEducation();
 	}
-	void GetFriends() {
-		Friends.Display();
+	ArrayList<User> GetFriends() {
+		return User::getFriendsList();
 	}
 	string GetLives_in() {
-		return Lives_in;
+		return User::getLives_in();
 	}
 	//Methods
+
 };
 

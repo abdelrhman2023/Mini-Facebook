@@ -18,13 +18,14 @@ public:
 	int Capacity();
 	void clear();
 	T& Edit(const int index);
+	T At(int index);
 	//T& operator[](const int index); // Operator overloading
 	void expand();
 	void append(T val);
 	T pop_back();
 	void insertAt(const int index, T val);
 	T deleteAt(const int index);
-	void Display();
+	ArrayList<T> Display();
 	
 };
 
@@ -61,6 +62,12 @@ inline T& ArrayList<T>::Edit(const int index)
 {
 	// TODO: insert return statement here
 	return Array[index-1];
+}
+
+template<class T>
+inline T ArrayList<T>::At(int index)
+{
+	return T(Array[index]);
 }
 
 /*
@@ -133,11 +140,11 @@ inline T ArrayList<T>::deleteAt(const int index)
 }
 
 template<class T>
-inline void ArrayList<T>::Display()
+inline ArrayList<T> ArrayList<T>::Display()
 {
 	if (size > 0) {
 		for (int i = 0; i < size; i++) {
-			cout << "(" << i + 1 << ")- " << Array[i] << endl;
+			cout << Array[i] << endl;
 		}
 	}
 }

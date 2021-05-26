@@ -77,7 +77,7 @@ inline void Queue<T>::Display()
 {
 	Node<T>* temp = Head;
 	for (int i = 0; i < Size; i++) {
-		cout << "(" << i+1 << ")- " << temp->data << endl;
+		cout << temp->data << endl;
 		temp = temp->next;
 	}
 }

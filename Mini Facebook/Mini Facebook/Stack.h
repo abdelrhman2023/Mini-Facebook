@@ -86,7 +86,7 @@ inline void Stack<T>::Display()
 		Node<T>* temp = top;
 		cout << "Display from Newer to Older: " << endl;
 		for (int i = 0; i < size; i++) {
-			cout << "(" << i + 1 << ")- " << temp->data << endl;
+			cout << temp->data << endl;
 			temp = temp->next;
 		}
 	}

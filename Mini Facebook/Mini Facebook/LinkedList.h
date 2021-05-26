@@ -139,7 +139,7 @@ inline void LinkedList<T>::Display()
 	int i = 0;
 	Node<T>* temp = Head;
 	while (temp != NULL) {
-		cout << ++i << " --> " << temp->data << endl;
+		cout << temp->data << endl;
 		temp = temp->next;
 	}
 }
