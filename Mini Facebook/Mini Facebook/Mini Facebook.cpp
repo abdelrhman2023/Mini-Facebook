@@ -6,24 +6,18 @@
 #include "Queue.h"
 #include "LinkedList.h"
 #include "ArrayList.h"
+#include<ctime>
 using namespace std;
 
 int main()
 {
-	ArrayList<int> A;
-	A.append(4);
-	A.append(7);
-	A.append(1);
-	A.append(9);
-	A.append(2);
-	A.Display();
-	//A.insertAt(5, 147);
-	//A.deleteAt(1);
-	//A.Display();
-	cout << A.pop_back() << endl;
-	cout << A.Capacity() << endl;
-	A.Edit(1) = 88;
-	A.Display();
+	struct tm* ti;
+	time_t tt;
+	time(&tt);
+	ti = localtime(&tt);
+	string time=asctime(ti);
+	cout << time;
+	
 
 
 

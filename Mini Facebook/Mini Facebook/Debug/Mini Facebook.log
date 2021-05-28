@@ -1,5 +1,132 @@
 ﻿  ArrayList.cpp
+  Comment.cpp
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\Comment.cpp(30,10): error C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Mini Facebook.cpp
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\LinkedList.h(13,2): error C2953: 'Node': class template has already been defined
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\LinkedList.h(3): message : see declaration of 'Node'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\Mini Facebook.cpp(17,7): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\Mini Facebook.cpp(18,14): error C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  NeewsFeed.cpp
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\TimeLine.h(14,12): error C2065: 'Post': undeclared identifier
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\TimeLine.h(14,2): error C2923: 'ArrayList': 'Post' is not a valid template type argument for parameter 'T'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\TimeLine.h(16,15): error C2061: syntax error: identifier 'Post'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\TimeLine.h(18,12): error C2065: 'Post': undeclared identifier
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\TimeLine.h(18,2): error C2923: 'ArrayList': 'Post' is not a valid template type argument for parameter 'T'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(21,11): error C2143: syntax error: missing ';' before '*'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(21,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(21,20): error C2238: unexpected token(s) preceding ';'
+  Post.cpp
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\NeewsFeed.h(8,12): error C2065: 'Post': undeclared identifier
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\NeewsFeed.h(8,2): error C2923: 'ArrayList': 'Post' is not a valid template type argument for parameter 'T'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\NeewsFeed.h(11,15): error C2061: syntax error: identifier 'Post'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\NeewsFeed.h(13,21): error C2061: syntax error: identifier 'string'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\TimeLine.h(14,12): error C2065: 'Post': undeclared identifier
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\TimeLine.h(14,2): error C2923: 'ArrayList': 'Post' is not a valid template type argument for parameter 'T'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\TimeLine.h(16,15): error C2061: syntax error: identifier 'Post'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\TimeLine.h(18,12): error C2065: 'Post': undeclared identifier
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\TimeLine.h(18,2): error C2923: 'ArrayList': 'Post' is not a valid template type argument for parameter 'T'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\Post.cpp(223,13): error C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Queue.cpp
+  TimeLine.cpp
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(22,11): error C2143: syntax error: missing ';' before '*'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(22,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(22,20): error C2238: unexpected token(s) preceding ';'
+  User.cpp
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(21,2): error C2059: syntax error: '}'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(26,20): error C2039: 'string': is not a member of 'User'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(7): message : see declaration of 'User'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(26,27): error C2146: syntax error: missing ')' before identifier 'name'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(27,1): error C2143: syntax error: missing ';' before '{'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(27,1): error C2447: '{': missing function header (old-style formal list?)
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(31,22): error C2039: 'string': is not a member of 'User'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(7): message : see declaration of 'User'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(31,29): error C2146: syntax error: missing ')' before identifier 'name'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(32,1): error C2143: syntax error: missing ';' before '{'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(32,1): error C2447: '{': missing function header (old-style formal list?)
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(36,25): error C2039: 'string': is not a member of 'User'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(7): message : see declaration of 'User'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(36,32): error C2146: syntax error: missing ')' before identifier 'birthdate'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(37,1): error C2143: syntax error: missing ';' before '{'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(37,1): error C2447: '{': missing function header (old-style formal list?)
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(41,20): error C2039: 'string': is not a member of 'User'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(7): message : see declaration of 'User'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(41,27): error C2146: syntax error: missing ')' before identifier 'newWork'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(42,1): error C2143: syntax error: missing ';' before '{'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(42,1): error C2447: '{': missing function header (old-style formal list?)
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(46,25): error C2039: 'string': is not a member of 'User'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(7): message : see declaration of 'User'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(46,32): error C2146: syntax error: missing ')' before identifier 'newEdu'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(47,1): error C2143: syntax error: missing ';' before '{'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(47,1): error C2447: '{': missing function header (old-style formal list?)
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(51,14): error C2143: syntax error: missing ';' before 'User::getName'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(51,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(52,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(52,1): error C2556: 'int User::getName(void)': overloaded function differs only by return type from 'std::string User::getName(void)'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(33): message : see declaration of 'User::getName'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(51,14): error C2371: 'User::getName': redefinition; different basic types
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(33): message : see declaration of 'User::getName'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(56,8): error C2872: 'string': ambiguous symbol
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(51,1): message : could be 'int string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(4648,7): message : or       'std::string'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(56,14): error C2143: syntax error: missing ';' before 'User::getGender'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(56,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(56,1): error C2086: 'int string': redefinition
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(51): message : see declaration of 'string'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(57,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(57,1): error C2556: 'int User::getGender(void)': overloaded function differs only by return type from 'std::string User::getGender(void)'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(34): message : see declaration of 'User::getGender'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(56,14): error C2371: 'User::getGender': redefinition; different basic types
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(34): message : see declaration of 'User::getGender'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(61,8): error C2872: 'string': ambiguous symbol
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(51,1): message : could be 'int string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(4648,7): message : or       'std::string'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(61,14): error C2143: syntax error: missing ';' before 'User::getBirhtdate'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(61,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(61,1): error C2086: 'int string': redefinition
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(51): message : see declaration of 'string'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(62,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(62,1): error C2556: 'int User::getBirhtdate(void)': overloaded function differs only by return type from 'std::string User::getBirhtdate(void)'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(35): message : see declaration of 'User::getBirhtdate'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(61,14): error C2371: 'User::getBirhtdate': redefinition; different basic types
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(35): message : see declaration of 'User::getBirhtdate'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(66,17): error C2872: 'string': ambiguous symbol
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(51,1): message : could be 'int string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(4648,7): message : or       'std::string'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(66,1): error C2923: 'ArrayList': 'string' is not a valid template type argument for parameter 'T'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(51): message : see declaration of 'string'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(67,1): error C2556: 'ArrayList User::getWork(void)': overloaded function differs only by return type from 'ArrayList<std::string> User::getWork(void)'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(36): message : see declaration of 'User::getWork'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(66,25): error C2371: 'User::getWork': redefinition; different basic types
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(36): message : see declaration of 'User::getWork'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(68,20): error C2039: 'Display': is not a member of 'ArrayList<std::string>'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(17): message : see declaration of 'ArrayList<std::string>'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(71,17): error C2872: 'string': ambiguous symbol
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(51,1): message : could be 'int string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(4648,7): message : or       'std::string'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(71,1): error C2923: 'ArrayList': 'string' is not a valid template type argument for parameter 'T'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(51): message : see declaration of 'string'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(72,1): error C2556: 'ArrayList User::getEducation(void)': overloaded function differs only by return type from 'ArrayList<std::string> User::getEducation(void)'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(37): message : see declaration of 'User::getEducation'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(71,25): error C2371: 'User::getEducation': redefinition; different basic types
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(37): message : see declaration of 'User::getEducation'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(73,25): error C2039: 'Display': is not a member of 'ArrayList<std::string>'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(17): message : see declaration of 'ArrayList<std::string>'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(76,8): error C2872: 'string': ambiguous symbol
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(51,1): message : could be 'int string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(4648,7): message : or       'std::string'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(76,14): error C2143: syntax error: missing ';' before 'User::getLives_in'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(76,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(76,1): error C2086: 'int string': redefinition
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(51): message : see declaration of 'string'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(77,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(77,1): error C2556: 'int User::getLives_in(void)': overloaded function differs only by return type from 'std::string User::getLives_in(void)'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(38): message : see declaration of 'User::getLives_in'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(76,14): error C2371: 'User::getLives_in': redefinition; different basic types
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(38): message : see declaration of 'User::getLives_in'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(83,23): error C2039: 'Display': is not a member of 'ArrayList<User>'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(20): message : see declaration of 'ArrayList<User>'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(88,29): error C2440: 'return': cannot convert from 'ArrayList<Post>' to 'ArrayList<User>'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(88,2): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.cpp(98,30): error C2039: 'Capacity': is not a member of 'ArrayList<User>'
+E:\FCIS\Data Structures\Mini-Facebook\Mini Facebook\Mini Facebook\User.h(20): message : see declaration of 'ArrayList<User>'
   Generating Code...
-C:\Users\A.S.A\source\repos\Mini Facebook\Mini Facebook\ArrayList.h(106): warning C4715: 'ArrayList<int>::pop_back': not all control paths return a value
-  Mini Facebook.vcxproj -> C:\Users\A.S.A\source\repos\Mini Facebook\Debug\Mini Facebook.exe

@@ -5,40 +5,18 @@
 #include "Post.h"
 #include "ArrayList.h"
 #include "LinkedList.h"
+
 using namespace std;
 
-class TimeLine : public User
+class TimeLine
 {
 private:
-	LinkedList<Post> Posts;
+	ArrayList<Post> Posts;
 public:
-	//Setters & Getters
-	
-	/*string GetCaption() {
-		return Caption;
-	}*/
-	string GetName() {
-		return User::getName();
-	}
-	string GetBirthDate() {
-		return User::getBirhtdate();
-	}
-	string Gender() {
-		return User::getGender();
-	}
-	ArrayList<string> GetWork() {
-		return User::getWork();
-	}
-	ArrayList<string> GetEducation() {
-		return User::getEducation();
-	}
-	ArrayList<User> GetFriends() {
-		return User::getFriendsList();
-	}
-	string GetLives_in() {
-		return User::getLives_in();
-	}
-	//Methods
+	void addPost(Post);
+	void removePost(int);
+	ArrayList<Post>getPosts();
+	void editPost(int,string);
 
 };
 

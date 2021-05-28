@@ -140,8 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ArrayList.cpp" />
+    <ClCompile Include="Comment.cpp" />
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="Mini Facebook.cpp" />
+    <ClCompile Include="NeewsFeed.cpp" />
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="Post.cpp" />
     <ClCompile Include="Queue.cpp" />
@@ -151,7 +153,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h" />
+    <ClInclude Include="Comment.h" />
     <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="NeewsFeed.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Post.h" />
     <ClInclude Include="Queue.h" />
