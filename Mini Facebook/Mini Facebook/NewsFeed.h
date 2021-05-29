@@ -1,19 +1,17 @@
 #pragma once
-#include <iostream>
-#include <string>
 #include"Post.h"
-#include "ArrayList.h"
+#include<iostream>
 using namespace std;
-class TimeLine
+class NewsFeed
 {
 private:
 	ArrayList<Post> Posts;
 public:
-	TimeLine();
+	NewsFeed();
 	void addPost(Post post);
 	void removePost(int index);
-	ArrayList<Post>getPosts();
 	void editPost(int index, string newcontent);
+	void sortposts();
 
 };
 

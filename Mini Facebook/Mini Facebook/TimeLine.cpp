@@ -1,5 +1,9 @@
 #include "TimeLine.h"
 
+TimeLine::TimeLine()
+{
+}
+
 void TimeLine::addPost(Post post)
 {
 	this->Posts.append(post);
@@ -15,7 +19,7 @@ ArrayList<Post> TimeLine::getPosts()
 	return this->Posts;
 }
 
-void TimeLine::editPost(int postindex,string newcontent)
+void TimeLine::editPost(int postindex, string newcontent)
 {
 	Posts.At(postindex).editpost(newcontent);
 }

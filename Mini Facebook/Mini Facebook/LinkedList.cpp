@@ -1,7 +1,6 @@
 #include "LinkedList.h"
-#include<iostream>
-using namespace std;
 #include<assert.h>
+
 template<class T>
 Node<T>::Node()
 {
@@ -91,17 +90,6 @@ void LinkedList<T>::insertAt(int ind, T val)
 	}
 	elmentocunt++;
 
-}
-
-template<class T>
-void LinkedList<T>::print()
-{
-	Node<T>* temp = head;
-	for (int i = 0; i < elmentocunt; i++)
-	{
-		cout << temp->data << "\n";
-		temp = temp->next;
-	}
 }
 
 template<class T>

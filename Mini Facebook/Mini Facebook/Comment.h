@@ -1,6 +1,7 @@
 #pragma once
 #include<iostream>
 #include "LinkedList.cpp"
+#include<ctime>
 using namespace std;
 class Comments {
 private:
@@ -10,6 +11,7 @@ private:
 	LinkedList<int> likes;
 public:
 	Comments(string content);
+	Comments();
 	void addLike(int);
 	string getDateTime();
 };

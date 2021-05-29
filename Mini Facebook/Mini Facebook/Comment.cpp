@@ -1,3 +1,4 @@
+#pragma warning(disable: 4996)
 #include "Comment.h"
 int Comments::cntlikes = 0;
 Comments::Comments(string content)
@@ -6,19 +7,23 @@ Comments::Comments(string content)
 	this->content = content;
 }
 
+Comments::Comments()
+{
+}
+
 void Comments::addLike(int likeid)
 {
 	bool found = 0;
-	for(int i=0;i<likes.count();i++)
+	for (int i = 0; i < likes.count(); i++)
 	{
-		if(likeid==likes.at(i))
+		if (likeid == likes.at(i))
 		{
 			likes.deleteAt(i);
 			found = true;
 			cntlikes--;
 		}
 	}
-	if(found==false)
+	if (found == false)
 	{
 		likes.appned(likeid);
 		cntlikes++;

@@ -1,5 +1,6 @@
 #include "ArrayList.h"
 #include<assert.h>
+
 template<class T>
 ArrayList<T>::ArrayList()
 {
@@ -75,12 +76,12 @@ T& ArrayList<T>::operator[](const int ind)
 template<class T>
 void ArrayList<T>::expand()
 {
-	T* arr2 = new T[capacity + 1];
+	T* arr2 = new T[capacity * 2];
 	for (int i = 0; i < capacity; i++)
 	{
 		arr2[i] = arr[i];
 	}
-	capacity += 1;
+	capacity *= 2;
 	delete[] arr;
 	arr = arr2;
 
@@ -107,9 +108,3 @@ ArrayList<T>::~ArrayList()
 	clear();
 }
 
-template<class T>
-void ArrayList<T>::movePost(int ind, T val)
-{
-	append(arr.at(ind));
-	deleteAt(ind);
-}

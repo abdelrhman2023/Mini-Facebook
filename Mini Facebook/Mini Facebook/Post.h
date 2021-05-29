@@ -1,19 +1,9 @@
 #pragma once
-#include <string>
-#include "User.h"
-#include <vector>
+#include<iostream>
 #include <ctime>
+#include"ArrayList.cpp"
 #include"Comment.h"
 using namespace std;
-
-//struct details
-//{
-//	string nameUser;
-//	int day;
-//	int mon;
-//};
-
-
 class Post
 {
 private:
@@ -26,6 +16,7 @@ private:
 	static int idgenerator;
 public:
 	Post(string content);
+	Post();
 	void writeComment(Comments);
 	void addLike(int likeid);
 	void editpost(string);

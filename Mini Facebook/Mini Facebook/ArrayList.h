@@ -15,7 +15,6 @@ public:
 	T& At(int ind);
 	T& operator[](const int ind);
 	void expand();
-	void movePost(int ind, T val);
 	bool empty();
 	void clear();
 	~ArrayList();

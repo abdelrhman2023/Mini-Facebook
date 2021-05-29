@@ -24,7 +24,6 @@ public:
 	T& at(int ind);
 	void appned(T val);
 	void insertAt(int ind, T val);
-	void print();
 	void deleteAt(int ind);
 	void clear();
 	~LinkedList();
